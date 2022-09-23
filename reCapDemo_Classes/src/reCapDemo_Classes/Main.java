@@ -5,13 +5,13 @@ public class Main {
 	public static void main(String[] args) {
 		FourOperations fourOperations = new FourOperations();
 
-		int result = fourOperations.Sum(3, 4);
+		int result = fourOperations.sum(3, 4);
 		System.out.println(result);
-		int result2 = fourOperations.Subtract(3, 4);
+		int result2 = fourOperations.subtract(3, 4);
 		System.out.println(result2);
-		int result3 = fourOperations.Multiplication(3, 4);
+		int result3 = fourOperations.multiplication(3, 4);
 		System.out.println(result3);
-		double result4 = fourOperations.Division(3, 4);
+		double result4 = fourOperations.division(3, 4);
 		System.out.println(result4);
 
 	}
